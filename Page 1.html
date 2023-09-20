@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>A level</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <style>
+    /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
+    .row.content {height: 1500px}
+    
+    /* Set gray background color and 100% height */
+    .sidenav {
+      background-color: #f1f1f1;
+      height: 175%;
+    }
+    
+    /* Set black background color, white text and some padding */
+    footer {
+      background-color: #555;
+      color: white;
+      padding: 15px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+    @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height: auto;} 
+    }
+  </style>
+</head>
+<body>
+
+<div class="container-fluid">
+    <div class="row content">
+      <div class="col-sm-3 sidenav">
+        <h4>Nick's A-Level notes</h4>
+        <ul class="nav nav-pills nav-stacked">
+          <li><a href="Alevel notes.html">Home</a></li>
+          <li class="active"><a href="Page 1.html">CS</a></li>
+          <li><a href="Page 2.html">Maths</a></li>
+          <li><a href="Page 3.html">Physics</a></li>
+        </ul><br>
+      </div>
+  
+      <div class="col-sm-9">
+        <h1>Nick's A-level notes</h1>
+
+        <hr>
+
+        <h2>HTML</h2>
+        <h4>!DOCTYPE: </h4>
+        <p>All HTML documents must start with a '!DOCTYPE' declaration.<br>
+           The declaration is not an HTML tag. It is an "information" to the browser about what document type to expect.<br>
+           In HTML 5, the declaration is simple: '!DOCTYPE html'.<br>
+        </p>
+        <h4>html: </h4>
+        <p>The 'html' tag represents the root of an HTML document.<br>
+           The 'html' tag is the container for all other HTML elements (except for the '!DOCTYPE' tag).<br>
+        </p>
+        <h4>head:</h4>
+        <p>The 'head' element is a container for metadata (data about data) and is placed between the <html> tag and the <body> tag.<br>
+           The following elements can go inside the <head> element:<br>
+        </p>
+        <ul>
+            <li>'title' (required in every HTML document)</li>
+            <li>'style'</li>
+            <li>'base'</li>
+            <li>'link'</li>
+            <li>'meta'</li>
+            <li>'script'</li>
+            <li>'noscript'</li>
+        </ul>
+        <h4>link:</h4>
+        <p>The 'link' tag defines the relationship between the current document and an external resource.<br>
+           The 'link' tag is most often used to link to external style sheets or to add a favicon to your website.<br>
+           The 'link' element is an empty element, it contains attributes only.<br>
+        </p>
+        <h4>title:</h4>
+        <p>The 'title' tag defines the title of the document. The title must be text-only, and it is shown in the browser's title bar or in the page's tab.<br>
+            The 'title' tag is required in HTML documents!<br>
+            The 'title' element:<br>
+        </p>
+        <ul>
+            <li> defines a title in the browser toolbar</li>
+            <li> provides a title for the page when it is added to favorites</li>
+            <li> displays a title for the page in search-engine results</li>
+        </ul>
+
+        <h4>body:</h4>
+        <p>The 'body' tag defines the document's body.<br>
+           The 'body' element contains all the contents of an HTML document, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.<br>
+           There can only be one 'body' element in an HTML document.<br>
+        </p>
+        <h4>headings:</h4>
+        <p>The 'h1' to 'h6' tags are used to define HTML headings.<br>
+           'h1' defines the most important heading. 'h6' defines the least important heading.<br>
+           
+        </p>
+        <h1>This is heading 1</h1>
+        <h2>This is heading 2</h2>
+        <h3>This is heading 3</h3>
+        <h4>This is heading 4</h4>
+        <h5>This is heading 5</h5>
+        <h6>This is heading 6</h6>
+        <h4>img:</h4>
+        <p>The 'img' tag is used to embed an image in an HTML page.<br>
+           Images are not technically inserted into a web page; images are linked to web pages. The 'img' tag creates a holding space for the referenced image.<br>
+           The 'img' tag has two required attributes:<br>
+        </p>
+        <ul>
+            <li>src - Specifies the path to the image</li>
+            <li>alt - Specifies an alternate text for the image, if the image for some reason cannot be displayed</li>
+        </ul>
+
+        <h4>a:</h4>
+        <p>The 'a' tag defines a hyperlink, which is used to link from one page to another.<br>
+           The most important attribute of the 'a' element is the href attribute, which indicates the link's destination.<br>
+        </p>
+        <h4>div:</h4>
+        <p>The 'div' tag defines a division or a section in an HTML document.<br>
+           The 'div' tag is used as a container for HTML elements - which is then styled with CSS or manipulated with JavaScript.<br>
+        </p>
+        <h4>form:</h4>
+        <p>The 'form' tag is used to create an HTML form for user input.<br>
+           The 'form' element can contain one or more of the following form elements:<br>
+        </p>
+        <ul>
+            <li>'input'</li>
+            <li>'textarea'</li>
+            <li>'button'</li>
+            <li>'select'</li>
+            <li>'option'</li>
+            <li>'optgroup'</li>
+            <li>'fieldset'</li>
+            <li>'label'</li>
+            <li>'output'</li>
+        </ul>
+        
+        <h4>input:</h4>
+        <p>The 'input' tag specifies an input field where the user can enter data.<br>
+           The 'input' element is the most important form element.<br>
+        </p>
+        <h4>p:</h4>
+        <p>The p' tag defines a paragraph.<br>
+           Browsers automatically add a single blank line before and after each 'p' element.<br>
+        </p>
+        <h4>li, ul & ol:</h4>
+        <p>The 'li' tag defines a list item.<br>
+           The 'li' tag is used inside ordered lists('ol'), unordered lists ('ul').<br>
+           In 'ul', the list items will usually be displayed with bullet points.<br>
+           In 'ol', the list items will usually be displayed with numbers or letters.<br>
+        </p>
+        <h4>script:</h4>
+        <p>he 'script' tag is used to embed a client-side script (JavaScript).<br>
+            The 'script' element either contains scripting statements, or it points to an external script file through the src attribute.<br>
+            Common uses for JavaScript are image manipulation, form validation, and dynamic changes of content.<br>
+        </p>
+
+        <hr>
+
+        <h2>CSS</h2>
+        <p>Learners are expected to be able to use CSS directly inside elements using the style attribute and external style sheets. In the style sheet they should be able to use CSS to define the styling of elements.</p>
+        <p>They are expected to be familiar with the folowing properties:</p>
+        <ul>
+            <li>background-color</li>
+            <li>border-color</li>
+            <li>border-style</li>
+            <li>border-width</li>
+            <li>colour with named and hex colours</li>
+            <li>font-family</li>
+            <li>font-size</li>
+            <li>height</li>
+            <li>width</li>
+        </ul>
+
+      </div>
+    </div>
+</div>
+     
+</body>
+</html>
